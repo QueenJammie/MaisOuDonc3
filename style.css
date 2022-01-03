@@ -1,0 +1,199 @@
+.tabulation {
+  display: inline-block;
+  text-indent: 2em;
+}
+#mailto {
+  background: none;
+}
+#mailto:hover {
+  color: blue;
+}
+button {
+  font-size: x-small;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 1px 0px #000;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: burlywood;
+}
+.tabulation2 {
+  display: inline-block;
+  text-indent: 16.5em;
+}
+.tabulation3 {
+  padding-left: 1em;
+  padding-top: 1em;
+  margin-left: 80px;
+  display: inline-block;
+  width: 41.5em;
+}
+.tabulation4 {
+  margin-left: 14em;
+}
+.tabulation6 {
+  margin-left: 23em;
+}
+.chapitre {
+  color: green;
+}
+.chapitre:hover {
+  font-weight: bold;
+}
+.citation {
+  display: inline-block;
+  font-style: italic;
+}
+h3 {
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+p {
+  font-size: medium;
+  text-align: justify;
+}
+h1 {
+  margin-bottom: 1em;
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  margin-right: 6em;
+}
+.tabulation4 {
+  text-align: right;
+  margin-right: 37em;
+}
+.tabulation5 {
+  margin-left: 17em;
+}
+.precedant {
+  position: relative;
+  top: 1em;
+  left: 5%;
+}
+.suivant1 {
+  position: relative;
+  top: 1em;
+  left: 5%;
+}
+.suivant {
+  position: relative;
+  top: 1em;
+  left: 60%;
+}
+margintoppage5 {
+  margin-top: 0px;
+}
+#page1 {
+  text-align: left;
+  margin-left: 2px;
+  vertical-align: bottom;
+}
+#page2 {
+  text-align: right;
+  vertical-align: bottom;
+}
+#page4 {
+  zoom: 120%;
+}
+* {
+  font-family: "Comic Sans MS", sans-serif;
+}
+body {
+  min-width: 600px;
+  margin: auto;
+  background-image: url("soleil.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: white;
+  font-size: medium;
+}
+h6,
+h4 {
+  text-align: left;
+  background-color: none;
+}
+a {
+  background-color: none;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: normal;
+  color: green;
+}
+.poeme {
+  text-align: center;
+  font-style: italic;
+}
+.expression {
+  margin-left: 80px;
+  font-style: italic;
+}
+.expression2 {
+  font-size: x-small;
+}
+.expression3 {
+  font-style: italic;
+  margin-left: 2em;
+}
+#roman {
+  background-image: url("parchemin.jpg");
+  opacity: 0.8;
+  width: 57%;
+  margin: auto;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: justify;
+  padding: 20px;
+  padding-bottom: 4px;
+  padding-top: 5px;
+  margin-left: 80px;
+  box-shadow: 0px 4px 4px black;
+}
+.center {
+  text-align: center;
+  margin: auto;
+}
+#conteneur1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+  height: 8em;
+  margin-bottom: none;
+}
+#conteneur2 {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+li {
+  margin-right: 6em;
+}
+footer {
+  margin-left: 6em;
+}
+#footer {
+  padding-top: 1em;
+  margin-left: 6em;
+}
+#pseudo {
+  position: relative;
+  left: 0.9em;
+  margin-bottom: 0.3em;
+}
+#message {
+  width: 20em;
+  height: 4em;
+}
+nav {
+  margin-left: 2em;
+}
