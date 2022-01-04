@@ -2,14 +2,17 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" type="image/png" href="images/cover1.ico" />
-    <title>Mais où Donc?</title>
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/png" href="images/cover1.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Mais où Donc?</title>
 </head>
 
 <body>
+  <div class="container">
   <header>
     <h1 class="center"><strong>Mais où Donc?</strong></h1>
     <h4 style="margin-bottom: 0px; margin-left: 5%; font-weight: normal;"><span style="font-weight: bold">Auteure:</span>
@@ -74,13 +77,18 @@
     <p id="page2">6</p>
   </article>
   <footer>
-    <p><span style="font-style: italic">COPYRIGHT <small>Les Éditions de mon cœur</small><br />
+    <div class="row">
+      <div class="col-4"><p><span style="font-style: italic">COPYRIGHT <small>Les Éditions de mon cœur</small></div>
+      <div class="col-5" style="margin-left: 30px;"><span id="day"></span>, le <span id="date"></span> <span id="month"></span> à <span id="hour"></span>h<span id="minutes"></span><br /></div>
+    </div>
     <button class="télécharger" href="Mais où Donc.pdf" target="_blank">TÉLÉCHARGER </button></span></p>
   </footer>
   <section>
     <a href="page5.html#page5" class="precedant"><img src="images/precedant.png" title="Page précédante" alt="Précédant" /></a>
     <a href="page7.html#page7" class="suivant"><img src="images/suivant.png" title="Page suivante" alt="Suivant" /></a>
   </section>
+  </div>
+  <script src="Script/script.js"></script>
 </body>
 
 </html>

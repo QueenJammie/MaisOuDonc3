@@ -4,9 +4,6 @@
 body {
   min-width: 600px;
   margin: auto;
-  background-image: url("soleil.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
   background-color: white;
   font-size: medium;
 }
@@ -68,12 +65,20 @@ footer {
 hr {
   margin: 15px 15px;
 }
+nav a {
+  color: black;
+}
 .tabulation {
   display: inline-block;
   text-indent: 2em;
 }
+.main-title {
+  margin-bottom: 150px;
+}
 #mailto {
   background: none;
+  margin-bottom: 0px;
+  color: black;
 }
 #mailto:hover {
   color: blue;
@@ -158,7 +163,7 @@ hr {
 #roman {
   background-image: url("images/parchemin.jpg");
   opacity: 0.8;
-  width: 57%;
+  width: 60%;
   margin: auto;
   height: auto;
   border: 1px solid black;
@@ -166,9 +171,9 @@ hr {
   text-align: justify;
   padding: 20px;
   padding-bottom: 4px;
-  padding-top: 5px;
+  padding-top: 20px;
   margin-left: 80px;
-  box-shadow: 0px 4px 4px black;
+  box-shadow: 0px 2px 2px black;
 }
 .center {
   text-align: center;
