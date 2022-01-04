@@ -1,12 +1,34 @@
-.tabulation {
-  display: inline-block;
-  text-indent: 2em;
+* {
+  font-family: "Comic Sans MS", sans-serif;
 }
-#mailto {
-  background: none;
+body {
+  min-width: 600px;
+  margin: auto;
+  background-image: url("soleil.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: white;
+  font-size: medium;
 }
-#mailto:hover {
-  color: blue;
+header {
+  margin-top: 30px;
+}
+nav {
+  margin-left: 2em;
+}
+h6,
+h4 {
+  text-align: left;
+  background-color: none;
+}
+a {
+  background-color: none;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: normal;
+  color: green;
 }
 button {
   font-size: x-small;
@@ -16,6 +38,45 @@ button {
 }
 button:hover {
   background-color: burlywood;
+  cursor: pointer;
+}
+h3 {
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+p {
+  font-size: medium;
+  text-align: justify;
+}
+h1 {
+  margin-bottom: 1em;
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  margin-right: 6em;
+}
+li {
+  margin-right: 6em;
+}
+footer {
+  margin-left: 6em;
+}
+hr {
+  margin: 15px 15px;
+}
+.tabulation {
+  display: inline-block;
+  text-indent: 2em;
+}
+#mailto {
+  background: none;
+}
+#mailto:hover {
+  color: blue;
 }
 .tabulation2 {
   display: inline-block;
@@ -44,25 +105,6 @@ button:hover {
   display: inline-block;
   font-style: italic;
 }
-h3 {
-  font-size: x-large;
-  font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
-}
-p {
-  font-size: medium;
-  text-align: justify;
-}
-h1 {
-  margin-bottom: 1em;
-  font-size: xx-large;
-  font-weight: bold;
-  font-style: italic;
-  text-shadow: 2px 2px 4px black;
-  text-align: center;
-  margin-right: 6em;
-}
 .tabulation4 {
   text-align: right;
   margin-right: 37em;
@@ -72,7 +114,7 @@ h1 {
 }
 .precedant {
   position: relative;
-  top: 1em;
+  margin-top: 10em;
   left: 5%;
 }
 .suivant1 {
@@ -84,9 +126,6 @@ h1 {
   position: relative;
   top: 1em;
   left: 60%;
-}
-margintoppage5 {
-  margin-top: 0px;
 }
 #page1 {
   text-align: left;
@@ -100,32 +139,7 @@ margintoppage5 {
 #page4 {
   zoom: 120%;
 }
-* {
-  font-family: "Comic Sans MS", sans-serif;
-}
-body {
-  min-width: 600px;
-  margin: auto;
-  background-image: url("soleil.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-color: white;
-  font-size: medium;
-}
-h6,
-h4 {
-  text-align: left;
-  background-color: none;
-}
-a {
-  background-color: none;
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  font-weight: normal;
-  color: green;
-}
+
 .poeme {
   text-align: center;
   font-style: italic;
@@ -142,7 +156,7 @@ a:hover {
   margin-left: 2em;
 }
 #roman {
-  background-image: url("parchemin.jpg");
+  background-image: url("images/parchemin.jpg");
   opacity: 0.8;
   width: 57%;
   margin: auto;
@@ -175,14 +189,8 @@ a:hover {
   flex-direction: row;
   justify-content: flex-start;
 }
-li {
-  margin-right: 6em;
-}
-footer {
-  margin-left: 6em;
-}
 #footer {
-  padding-top: 1em;
+  margin-top: 5em;
   margin-left: 6em;
 }
 #pseudo {
@@ -194,6 +202,9 @@ footer {
   width: 20em;
   height: 4em;
 }
-nav {
-  margin-left: 2em;
+.first-element {
+  margin-top: 100px;
+}
+.last-element {
+  margin-bottom: 60px;
 }
