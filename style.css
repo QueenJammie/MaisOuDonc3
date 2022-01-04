@@ -48,7 +48,7 @@ p {
   text-align: justify;
 }
 h1 {
-  margin-bottom: 1em;
+  margin-bottom: 100px;
   font-size: xx-large;
   font-weight: bold;
   font-style: italic;
@@ -68,12 +68,13 @@ hr {
 nav a {
   color: black;
 }
+nav a:hover {
+  color: black;
+  font-weight: bold;
+}
 .tabulation {
   display: inline-block;
   text-indent: 2em;
-}
-.main-title {
-  margin-bottom: 150px;
 }
 #mailto {
   background: none;
@@ -81,7 +82,7 @@ nav a {
   color: black;
 }
 #mailto:hover {
-  color: blue;
+  color: green;
 }
 .tabulation2 {
   display: inline-block;
@@ -100,10 +101,16 @@ nav a {
 .tabulation6 {
   margin-left: 23em;
 }
+#auteure {
+  margin-bottom: 0px;
+  margin-left: 5%;
+  font-weight: normal;
+}
 .chapitre {
   color: green;
 }
 .chapitre:hover {
+  color: green;
   font-weight: bold;
 }
 .citation {
@@ -163,7 +170,7 @@ nav a {
 #roman {
   background-image: url("images/parchemin.jpg");
   opacity: 0.8;
-  width: 60%;
+  width: 65%;
   margin: auto;
   height: auto;
   border: 1px solid black;
