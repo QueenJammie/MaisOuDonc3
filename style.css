@@ -8,8 +8,8 @@ body {
   background-image: url("images/design.png");
   background-repeat: no-repeat;
   background-position: right top;
-  margin-top: 70px;
-  margin-right: 70px;
+  margin-top: 10px;
+  margin-right: 10px;
   font-size: medium;
 }
 header {
