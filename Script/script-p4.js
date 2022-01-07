@@ -1,4 +1,4 @@
-alert("Vous me direz ce que vous avez pensez de ce roman... écrit alors que j'étais encore à l'hôpital :O . Merci! : jammie.lacc@outlook.com");
+alert("Vous me direz ce que vous avez pensé de ce roman... écrit alors que j'étais encore à l'hôpital :O . Merci! : jammie.lacc@outlook.com");
 
 let now = new Date();
 
