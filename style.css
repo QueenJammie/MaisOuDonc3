@@ -5,6 +5,11 @@ body {
   min-width: 600px;
   margin: auto;
   background-color: white;
+  background-image: url("images/design.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-top: 70px;
+  margin-right: 70px;
   font-size: medium;
 }
 header {
